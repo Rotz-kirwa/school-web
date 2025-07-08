@@ -16,56 +16,56 @@ const blogs = [
     {
         id: 1,
         img: [Blog1Img],
-        title: 'Blog 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'Digital Learning Revolution',
+        description: 'Exploring how technology is transforming education at Royal Oak Academy. From interactive whiteboards to virtual laboratories, discover how we integrate modern tools to enhance student learning experiences.'
     },
     {
         id: 2,
         img: [Blog2Img],
-        title: 'Blog 2',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'Student Success Stories',
+        description: 'Meet our outstanding graduates who are making a difference in Kenya and beyond. Read inspiring stories of academic excellence, leadership, and community impact from Royal Oak Academy alumni.'
     },
     {
         id: 3,
         img: [Blog3Img],
-        title: 'Blog 3',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'Innovative Teaching Methods',
+        description: 'Discover the creative and effective teaching strategies our faculty uses to engage students. From project-based learning to collaborative problem-solving, see how we make education exciting and meaningful.'
     },
     {
         id: 4,
         img: [Blog4Img],
-        title: 'Blog 4',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'Community Engagement Programs',
+        description: 'Learn about our initiatives that connect students with local communities. From environmental conservation projects to literacy programs, see how Royal Oak Academy students give back to society.'
     },
     {
         id: 5,
         img: [Blog5Img],
-        title: 'Blog 5',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'STEM Excellence Initiative',
+        description: 'Explore our comprehensive Science, Technology, Engineering, and Mathematics programs. Discover state-of-the-art laboratories, robotics clubs, and coding workshops that prepare students for the digital future.'
     },
     {
         id: 6,
         img: [Blog6Img],
-        title: 'Blog 6',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'Cultural Heritage Celebration',
+        description: 'Celebrating Kenya\'s rich cultural diversity through education. Learn how we incorporate traditional values, languages, and customs into our modern curriculum while preparing students for global citizenship.'
     },
     {
         id: 7,
         img: [Blog7Img],
-        title: 'Blog 7',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'Sports and Wellness Program',
+        description: 'Promoting physical fitness and mental well-being through comprehensive sports programs. From athletics to team sports, discover how we develop healthy, confident, and disciplined students.'
     },
     {
         id: 8,
         img: [Blog8Img],
-        title: 'Blog 8',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'Parent-School Partnership',
+        description: 'Building strong relationships between families and educators. Learn about our parent engagement programs, communication strategies, and collaborative approaches to student development and success.'
     },
     {
         id: 9,
         img: [Blog9Img],
-        title: 'Blog 9',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'Future-Ready Skills Development',
+        description: 'Preparing students for tomorrow\'s challenges through critical thinking, creativity, and leadership development. Explore our programs that build 21st-century skills essential for success in higher education and careers.'
     },
 ];
 
@@ -75,7 +75,7 @@ function Blog() {
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
                 <h1 className='text-center fw-semibold'>Blog</h1>
-                <p className='text-center w-75 mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.</p>
+                <p className='text-center w-75 mb-5'>Stay informed with the latest insights, educational trends, and inspiring stories from Royal Oak Academy. Discover how we're shaping the future of education in Kenya.</p>
             </div>
         </header>
 
