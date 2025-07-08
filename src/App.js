@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Home from './pages/Home/Home';
 import Courses from './pages/Courses/Courses';
 import About from './pages/About/About';
+import Staff from './pages/Staff/Staff';
 import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact/Contact';
 
@@ -21,11 +22,9 @@ function App() {
                 <path d="M6 2v.341C3.67 3.165 2 5.388 2 8v5.5A2.5 2.5 0 0 0 4.5 16h7a2.5 2.5 0 0 0 2.5-2.5V8a6.002 6.002 0 0 0-4-5.659V2a2 2 0 1 0-4 0m2-1a1 1 0 0 1 1 1v.083a6.04 6.04 0 0 0-2 0V2a1 1 0 0 1 1-1m0 3a4 4 0 0 1 3.96 3.43.5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14A4 4 0 0 1 8 4M4.5 9h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5"/>
               </svg>
               <span className='mx-2 text-light lh-1 fw-semibold'>
-                React
+                Royal Oak
                 <br></br>
-                University
-                <br></br>
-                London
+                Academy
               </span>
             </Link>
           </Navbar.Brand>
@@ -35,6 +34,7 @@ function App() {
               <Nav.Link href='/' className='text-uppercase'>Home</Nav.Link>
               <Nav.Link href='/courses' className='text-uppercase'>Our courses</Nav.Link>
               <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
+              <Nav.Link href='/staff' className='text-uppercase'>Staff</Nav.Link>
               <Nav.Link href='/blog' className='text-uppercase'>Blog</Nav.Link>
               <Nav.Link href='/contact' className='text-uppercase'>Get in touch</Nav.Link>
             </Nav>
@@ -46,6 +46,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/courses' element={<Courses />} />
         <Route path='/about' element={<About />} />
+        <Route path='/staff' element={<Staff />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
@@ -101,6 +102,9 @@ function App() {
                     <Link to="/about" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>About us</li>
                     </Link>
+                    <Link to="/staff" className='text-decoration-none text-danger'>
+                      <li className='text-uppercase fw-semibold'>Staff</li>
+                    </Link>
                     <Link to="/blog" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>Blog</li>
                     </Link>
@@ -112,13 +116,13 @@ function App() {
                 <div className='col-12 col-md-6 col-lg-7'>
                   <ul className='list-unstyled mb-0'>
                     <li>
-                      <p>Main Address - 47 Street Name, London UK</p>
+                      <p>Main Campus - Uhuru Highway, Nairobi, Kenya</p>
                     </li>
                     <li>
-                      <p>Phone Number - 0900800700</p>
+                      <p>Phone Number - +254 700 123 456</p>
                     </li>
                     <li>
-                      <p>Email - react@university.co.uk</p>
+                      <p>Email - info@royaloakacademy.co.ke</p>
                     </li>
                   </ul>
                 </div>
@@ -128,7 +132,7 @@ function App() {
         </div>
         <div className='bg-body-tertiary'>
           <div className='container'>
-            <p className='p-3 m-0 text-center'>copyright @ made by Ionut Cora</p>
+            <p className='p-3 m-0 text-center'>copyright @ made by ALGOKING</p>
           </div>
         </div>
       </footer>

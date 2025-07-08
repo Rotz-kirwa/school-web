@@ -1,0 +1,32 @@
+.staff-page header {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/about-page-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.height-75 {
+    height: 75vh;
+}
+
+.hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}
+
+.staff-page .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.staff-page .card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.staff-page .card:hover .card-img-top {
+    transform: scale(1.05);
+}

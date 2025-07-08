@@ -36,8 +36,8 @@ function Home() {
         <header className='h-100 min-vh-100 d-flex align-items-center text-light'>
             <div className='container d-flex flex-column align-items-center'>
                 <h2>Welcome To</h2>
-                <h1 className='text-center fw-semibold'>React University London</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.</p>
+                <h1 className='text-center fw-semibold'>Royal Oak Academy</h1>
+                <p>Empowering Kenya's future leaders through excellence in education, character development, and innovation. Join us in shaping tomorrow's changemakers.</p>
                 <div className='d-flex flex-column flex-sm-row align-items-center'>
                     <Link to="/courses">
                         <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Our Courses</button>
@@ -57,8 +57,8 @@ function Home() {
             <div className="container">
                 <div className='row d-flex align-items-center justify-content-around'>
                     <div className='col-lg-5'>
-                        <h2 className='text-capitalize'>2024 start courses</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, placeat.</p>
+                        <h2 className='text-capitalize'>2024 enrollment open</h2>
+                        <p>Discover our comprehensive programs designed for Kenyan students seeking world-class education.</p>
                         <Link to="/courses">
                             <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Learn More</button>
                         </Link>
